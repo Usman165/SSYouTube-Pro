@@ -1,3 +1,5 @@
+import Button from "@/components/ui/Button";
+
 export default function Hero() {
   return (
     <section className="min-h-screen bg-gray-950 text-white flex items-center justify-center px-6">
@@ -17,9 +19,9 @@ export default function Hero() {
           fast and secure downloader.
         </p>
 
-        <button className="mt-10 bg-red-600 hover:bg-red-700 transition-all duration-300 px-8 py-4 rounded-xl text-lg font-semibold">
+        <Button className="mt-10">
           Start Downloading
-        </button>
+        </Button>
       </div>
     </section>
   );
